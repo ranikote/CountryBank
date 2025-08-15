@@ -3,7 +3,7 @@ services:
   cb:
     image: nikitap/countrybank
     ports:
-      - "8001:8001"
+      - "8000:8000"
     environment:
         - CONFIG_MAIL_HOST=${CONFIG_MAIL_HOST}
         - CONFIG_MAIL_PORT=${CONFIG_MAIL_PORT}
